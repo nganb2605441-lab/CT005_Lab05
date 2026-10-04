@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Infographic và video hướng dẫn</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            padding: 30px 20px;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 17px;
+        }
+
+        main {
+            width: min(100% - 32px, 1000px);
+            margin: 30px auto;
+        }
+
+        .card {
+            margin-bottom: 30px;
+            padding: 24px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #1e40af;
+        }
+
+        .infographic {
+            display: block;
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            margin: 20px auto 0;
+            border-radius: 8px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            background-color: #e5e7eb;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Infographic và video hướng dẫn</h1>
+        <p>Khám phá thông tin trực quan qua hình ảnh và video</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Infographic</h2>
+
+            <p>
+                Infographic cung cấp những thông tin chính được trình bày
+                ngắn gọn và trực quan.
+            </p>
+            <p><i> Công cụ hỗ trợ : Meta AI<br>
+             Video: https://youtu.be/TxAG0G76ClU <br>
+             Hình ảnh: Cavan AI</i></p>
+
+            <!-- Đổi infographi"
+                alt="Infographic minh họa thông tin"
+            >
+        </section>
+
+        <section class="card">
+            <h2>Video YouTube</h2>
+
+            <p>
+                Xem video để tìm hiểu thêm về nội dung được trình bày trong infographic.
+            </p>
+
+            <div class="video-wrapper">
+                <!-- Thay VIDEO_ID bằng mã video YouTube thực tế -->
+                <iframe
+                    src="https://www.youtube.com/embed/TxAG0G76ClU"
+title="Video YouTube "
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Đoàn Thị Kim Ngân B2605441.
+    </footer>
+
+</body>
+</html>
